@@ -1,12 +1,23 @@
 @media (min-width: 992px) {
-  .rounded-lg-3 { border-radius: .3rem; }
+    .rounded-lg-3 {
+        border-radius: .3rem;
+    }
 }
-.round{border-radius: 100px;}
-.btn-nav{
-  border:black solid 1px;
-  display: block;
-  margin: auto;
+
+.round {
+    border-radius: 100px;
 }
-.a-nav{
-  text-decoration:none;
+
+.btn-nav {
+    border: black solid 1px;
+    display: block;
+    margin: auto;
+}
+
+.a-nav {
+    text-decoration: none;
+}
+
+nav {
+    
 }
