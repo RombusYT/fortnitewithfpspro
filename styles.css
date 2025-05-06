@@ -17,7 +17,22 @@
 .a-nav {
     text-decoration: none;
 }
+.tiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
-nav {
+.tile {
+    flex: 1 0 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hoverclass:hover{
     
+    transform: scale(1.05);
 }
